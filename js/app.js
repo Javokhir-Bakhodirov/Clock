@@ -50,7 +50,7 @@ function checkAlarm(now) {
 
 function triggerAlarm() {
 	document.getElementById("alarm-message").innerText = "Alarm ringing!";
-	alarmTime = null; // Reset the alarm
+	alarmTime = null;
 	alert("Wake up! It's time!");
 }
 
